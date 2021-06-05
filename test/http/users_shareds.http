@@ -1,0 +1,21 @@
+###
+GET http://localhost:3000/api/v1/users_shareds
+Content-Type: application/json
+Authorization: Bearer 2ey71czpknny6pua5mhv8r315mstu6rw
+x-session-user: 1
+
+###
+POST http://localhost:3000/api/v1/users_shareds
+Content-Type: application/json
+Authorization: Bearer 2ey71czpknny6pua5mhv8r315mstu6rw
+x-session-user: 1
+
+{
+    "email": "cicrano@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/api/v1/users_shareds/2
+Content-Type: application/json
+Authorization: Bearer 2ey71czpknny6pua5mhv8r315mstu6rw
+x-session-user: 1

@@ -1,0 +1,4 @@
+GET http://localhost:3000/api/v1/settings_graphic
+Content-Type: application/json
+Authorization: Bearer 2ey71czpknny6pua5mhv8r315mstu6rw
+x-session-user: 1
